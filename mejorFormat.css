@@ -1,0 +1,74 @@
+.header {
+    background-color: rgb(109, 63, 122);
+    color: white;
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente */
+    padding: 20px; /* Añade padding alrededor del header */
+}
+
+.header img {
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.Nombre {
+    text-align: center; /* Centra el texto del nombre */
+}
+
+
+
+.cuerpo {
+    margin: 0 auto; /* Centra el contenedor principal */
+    max-width: 800px; /* Limita el ancho del contenido */
+}
+
+.titulos {
+    font-size: 2.5rem;
+    text-align: center; /* Centra los títulos */
+}
+
+.content-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.text-section {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.img-side {
+    max-width: 45%;
+    border-radius: 8px;
+}
+
+.text-section p {
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+#formulario {
+    box-sizing: border-box;
+    width: 85%;
+    margin: 0 auto; /* Centra el formulario */
+    border: 2px dashed rgb(97, 114, 129);
+}
+
+.footer {
+    background-color: rgb(109, 63, 122);
+    color: white;
+    padding: 10px 30px;
+    display: flex;
+}
+
+#contactos, #legal {
+    flex: 1;
+}
+
+.footer .text-center {
+    flex: 1;
+    text-align: center;
+}
